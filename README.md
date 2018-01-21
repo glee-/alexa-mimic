@@ -1,4 +1,5 @@
 #PuppetMaster
+
 A skill for the Amazon Alexa platform.
 
 This aims to provide a simple framework for handling requests to a generic endpoint.
@@ -12,6 +13,7 @@ Some applications that came up during testing include:
 The target OS for this skill was MacOS, due to a reliance on Automator and AppleScript in order to write macros. While these are operating system specific, options for other operating systems also exist, most notably AutoHotKey for Windows.
 
 ##Installation
+
 A basic understanding of creating Amazon Alexa skills is required to deploy your own copy of the skill.
 
 This skill uses the `request` nodejs package.
