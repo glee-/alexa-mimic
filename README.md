@@ -1,4 +1,4 @@
-#PuppetMaster
+# PuppetMaster
 
 A skill for the Amazon Alexa platform.
 
@@ -12,7 +12,7 @@ Some applications that came up during testing include:
 
 The target OS for this skill was MacOS, due to a reliance on Automator and AppleScript in order to write macros. While these are operating system specific, options for other operating systems also exist, most notably AutoHotKey for Windows.
 
-##Installation
+## Installation
 
 A basic understanding of creating Amazon Alexa skills is required to deploy your own copy of the skill.
 
