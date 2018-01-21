@@ -28,3 +28,9 @@ zip -r package.zip index.js node_modules
 ~~~~
 
 You can then upload package.zip directly to a Amazon Lambda service.
+
+## Control and Macros
+
+Simply start the Node.js server under the 'server' folder and create a tunnel to localhost using ngrok. Other servers that make post requests to the ngrok address will be able to run predefined macros on your computer.
+
+To add more macros, use Apple's Automator software. Most custom behavior can be implemented using AppleScript, which some desktop apps (e.g. Spotify) have an API for. Add a case for your new macro in the POST endpoint in `index.js` and create a corresponding command for Alexa.
